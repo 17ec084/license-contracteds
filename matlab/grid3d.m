@@ -19,7 +19,7 @@ function grid3d(x_points, y_points, z_points)
     hold on
     quiver3_x_axises(y_points, z_points, x_max-x_min, x_min);
     quiver3_y_axises(z_points, x_points, y_max-y_min, y_min);
-    quiver3_z_axises(z_points, x_points, z_max-z_min, z_min);
+    quiver3_z_axises(x_points, y_points, z_max-z_min, z_min);
 end
 
 function set_quiver3_property(q)
