@@ -1,9 +1,11 @@
 function grid3d(x_points, y_points, z_points)
-%GRID3D —§‘ÌƒOƒŠƒbƒh‚ğ’Ç‰Á‚·‚é
-%x_points‚ÍsƒxƒNƒgƒ‹‚É‚ÄƒOƒŠƒbƒhü‚ğˆø‚«‚½‚¢xÀ•W‚ğ•À‚×‚Ä‚­‚¾‚³‚¢B
-%y_points‚âz_points‚à“¯—l‚Å‚·B
-%²‚Ìİ’è‚Íset_quiver3_propertyŠÖ”“à‚Ìq‚É‘Î‚µ‚Äs‚Á‚Ä‚­‚¾‚³‚¢B
-%•›ì—p: hold on‚µ‚Ü‚·B
+%GRID3D ç«‹ä½“ã‚°ãƒªãƒƒãƒ‰ã‚’è¿½åŠ ã™ã‚‹
+%x_pointsã¯è¡Œãƒ™ã‚¯ãƒˆãƒ«ã«ã¦ã‚°ãƒªãƒƒãƒ‰ç·šã‚’å¼•ããŸã„xåº§æ¨™ã‚’ä¸¦ã¹ã¦ãã ã•ã„ã€‚
+%y_pointsã‚„z_pointsã‚‚åŒæ§˜ã§ã™ã€‚
+%è»¸ã®è¨­å®šã¯set_quiver3_propertyé–¢æ•°å†…ã®qã«å¯¾ã—ã¦è¡Œã£ã¦ãã ã•ã„ã€‚
+%å‰¯ä½œç”¨: hold onã—ã¾ã™ã€‚
+%è­¦å‘Š:ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚é–‹ç™ºè€…ã®æŒ‡å®šã™ã‚‹ãƒãƒƒãƒˆç½²åã«å‚åŠ ã—ãªã„é™ã‚Šã€åˆ©ç”¨ã¯èªã‚ã‚‰ã‚Œã¾ã›ã‚“ã€‚
+%https://github.com/17ec084/license-contracteds/blob/master/README.md
     x_points = reshape(x_points,1,[]);
     y_points = reshape(y_points,1,[]);
     z_points = reshape(z_points,1,[]);
