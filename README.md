@@ -3,6 +3,4 @@
 
 ## 例外
 一般的に、17ec084以外が制作したコードを再配布している場合、コンテンツ内の再配布に当たる箇所に限って、license-contractedを無効とします。
-具体的には、2020年4月10日現在、次のものがlicense-contracted無効となっております。それ以外はすべて有効です。
-
-- grid3d.m内の`function A = allcomb(varargin)`以降すべて
+詳細は各ディレクトリ内のreadme.mdに示します
